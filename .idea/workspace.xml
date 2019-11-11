@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="642efba6-7f02-41fb-905d-fe8924a770d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SocialMedia1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SocialMedia1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SocialMedia1/SignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SocialMedia1/SignIn.class" afterDir="false" />
@@ -69,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573497245233</updated>
       <workItem from="1573497249881" duration="4853000" />
-      <workItem from="1573502582413" duration="2536000" />
+      <workItem from="1573502582413" duration="4814000" />
     </task>
     <servers />
   </component>
