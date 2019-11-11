@@ -20,24 +20,34 @@ public class Main {
 
 
     }
-    public static void sign(ArrayList<User> arr){
+    public static void sign(ArrayList<User> arr) {
+        boolean ver = true;
+
         Scanner key = new Scanner(System.in);
-        SignIn singin=new SignIn();
+        SignIn singin = new SignIn();
 
-        System.out.println("Facebook, Twitter, LinkedIn, or Instagram");
-        System.out.println("Which Social Media do you want to login to: ?");
-        String ans=key.next();
-        if(ans.equalsIgnoreCase("facebook")){
-            singin.signIn(arr,ans);
-        }else if(ans.equalsIgnoreCase("twitter")){
-            singin.signIn(arr,ans);
-        }else if (ans.equalsIgnoreCase("linkedin")){
-            singin.signIn(arr,ans);
-        }else if(ans.equalsIgnoreCase("Instgram")){
-            singin.signIn(arr,ans);
-        }else{
-            System.out.println("Please enter valued email or password");
+
+            System.out.println("Facebook, Twitter, LinkedIn, or Instagram");
+            System.out.println("Which Social Media do you want to login to: ?");
+
+        while (ver) {
+            String ans = key.next();
+            if (ans.equalsIgnoreCase("facebook")) {
+                singin.signIn(arr, ans);
+                ver=false;
+            } else if (ans.equalsIgnoreCase("twitter")) {
+                singin.signIn(arr, ans);
+                ver=false;
+            } else if (ans.equalsIgnoreCase("linkedin")) {
+                singin.signIn(arr, ans);
+                ver=false;
+            } else if (ans.equalsIgnoreCase("Instgram")) {
+                singin.signIn(arr, ans);
+                ver=false;
+            } else {
+                System.out.println("Please enter one of the above specified platforms");
+            }
+
         }
-
     }
 }
